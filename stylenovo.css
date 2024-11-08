@@ -2,8 +2,16 @@ body{
     background-color: rgb(245, 244, 231);
 }
 
+main{
+    display: flex;
+    padding-top: 80px;
+}
+
 .header{
     padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .links{
@@ -68,14 +76,37 @@ footer {
     margin: 50px 0 0 0;
     padding: 40px;
 }
-
 .texto{
     text-align: justify;
     columns: 3;
     font-weight: bold;
-    margin:50px;
+    margin:10px;
 }
 
+.secao-1 h1{
+    font-weight: bold;
+}
+
+.secao-1 h2{
+    font-weight: lighter;
+    color: #e605d3;
+    margin-top: 10px;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+.secao-2 h2{
+    font-weight: lighter;
+    color: #e605d3;
+    margin-top: 10px;
+}
+
+.linha-divisoria{
+    width: 0.5%;
+    background-color: red;
+}
 .secao-1{
     width: 100%;
     margin-left: 0;
@@ -100,15 +131,6 @@ footer {
     width: 500px;
     margin-left: 50px;
     margin-top: 50px;
-}
-
-.secao-1 h1{
-    font-weight: bold;
-}
-
-.secao-1 h2{
-    font-weight: lighter;
-    color: #e605d3;
 }
 
 img{
